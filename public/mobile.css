@@ -59,6 +59,7 @@
 
 	.gklasa {
 		float: none;
+		width: 100%;
 	}
 
 	.gklasa-tekst {
@@ -106,4 +107,31 @@
 		width: 90%;
 	}
 
+}
+
+@media (max-width: 420px) {
+	.naslov {
+		font-size: 47px;
+	}
+	.drugo-dugme {
+		display: none;
+	}
+
+	.gklasa-tekst {
+		font-size: 11px;
+	}
+
+	.crni-desni {
+		height: 770px;
+	}
+
+	.video-h1 {
+		font-size: 44px;
+	}
+
+	.video-h2 {
+		font-size: 12px;
+		padding: 0px 70px;
+		margin-top: 50px;
+	}
 }
