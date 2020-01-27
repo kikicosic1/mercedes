@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kontakt</title>
+	<link rel="stylesheet" type="text/css" href="public/Kontakt.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+		<div id="main-section">	
+		<div class="glavni-wrapper">
+			<div class="levi-deo">
+				<div class="navigacija">
+					<img src="public/images/logo.png" alt="logo">
+					<ul class="linkovi">
+						<li class="link-tile">
+							<a href="index.html" class="non-active">Pocetna</a>
+						</li><!-- end link-tile -->
+						<li class="link-tile">
+							<a href="kontakt.html" class="active-link">Kontakt</a>
+						</li><!-- end link-tile -->	
+						<li class="link-tile">
+							<a href="about.html" class="non-active">Autor</a>
+						</li><!-- end link-tile -->						
+					</ul><!-- end linkovi -->
+				</div><!-- end navigacija -->
+				<div class="informacije">
+					<h1>Kontaktirajte <br> nas!</h1>
+					<div class="informacije-tile">
+						<img src="public/images/lokacija.svg" alt="lokacija">
+						<p><span>Lokacija</span><br>
+							Beograd, Srbija, Jurija Gagarina 11</p>
+					</div><!-- end informaicje-tile -->
+					<div class="informacije-tile">
+						<img src="public/images/telefon.svg" alt="telefon">
+						<p><span>Broj Telefona</span><br>
+							+381 889 221 002 10</p>
+					</div><!-- end informaicje-tile -->					
+				</div><!-- end informacije -->	
+				<div class="forma">
+					<div class="form-tile">
+						<p>Ime i Prezime</p>
+						<input type="text" name="ime" placeholder="Unesite vase puno ime..." id="input-1">
+					</div><!-- end form-tile -->
+					<div class="form-tile">
+						<p>Email</p>
+						<input type="text" name="ime" placeholder="Unesite vas email..." id="input-2">
+					</div><!-- end form-tile -->
+					<div class="form-tile">
+						<p>Poruka</p>
+						<input type="text" name="ime" placeholder="Unesite sadrzaj vase poruke..." id="input-3">
+					</div><!-- end form-tile -->
+					<button class="submit" onclick="posalji()" >Posalji Poruku</button>										
+				</div><!-- end forma -->
+			</div><!-- end levi-deo -->
+		</div><!-- end glavni-wrapper -->
+	</div><!-- end main-section -->
+	<script type="text/javascript" src="views/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+/*  Fontovi */
+
+@font-face {
+    font-family: 'Poppins-E';
+    src: url('fonts/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-M';
+    src: url('fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-S';
+    src: url('fonts/Poppins-SemiBold.ttf');
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+#main-section {
+	width: 100%; 
+	height: 100%;
+}
+
+.glavni-wrapper {
+	width: 960px;
+	height: 820px;
+	margin: 0 auto;
+}
+
+.levi-deo {
+	width: 100%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 70px;
+}
+
+.navigacija {
+	float: left;	
+	width: 100%;	
+	height: 60px;
+}
+
+.navigacija > img {
+	float: left;
+}
+
+.linkovi {
+	width: auto;
+	float: right;
+	height: 100%;
+}
+
+.linkovi > .link-tile {
+	display: inline-block;
+}
+
+.link-tile {
+	width: auto;
+	height: 100%;	
+	padding: 0px 20px 0px 20px;
+	margin-top: 16px;
+}
+
+.link-tile > a {
+	font-family: Poppins-M;
+	font-size: 14px;
+	color: #A9A9A9;
+}
+
+.linkovi > .link-tile > .active-link {
+	font-family: Poppins-S;
+	color: #4785FF;
+	font-weight: 600;
+}
+
+.linkovi > .link-tile > .non-active:hover {
+	transition: .2s;
+	opacity: .4;	
+}
+
+.informacije {
+	width: auto;
+	height: 100%;
+	float: left;
+}
+
+.informacije > h1 {
+	font-family: Poppins-E;
+	font-size: 57px;
+	color: #2F2F2F;
+	line-height: 117%;
+	margin-top: 75px;
+}
+
+.forma {
+	float: right;
+	width: 475px;
+	height: 481px;
+	background: #FCFCFC;
+	border: 1px solid #EDEDED;
+	box-sizing: border-box;
+	box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.06);
+	border-radius: 4px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.form-tile {
+	width: 100%;
+	height: 90px;
+	box-sizing: border-box;
+	padding: 0px 38px;
+	margin-top: 28px;
+}
+
+.form-tile > p {
+	font-size: 12px;
+	color: #6A6A6A;
+	font-family: Poppins-S;
+	text-align: left;
+}
+
+.form-tile > input {
+	width: 399px;
+	height: 50px;
+	background: #FFFFFF;
+	border: 1px solid #F4F4F4;
+	box-sizing: border-box;
+	border-radius: 4px;
+	text-indent: 20px;
+	margin-top: 25px;
+}
+
+.form-tile > input::placeholder {
+	font-family: Poppins-M;
+	font-size: 11px;
+	color: #9D9D9D;
+}
+
+.submit {
+	width: 208px;
+	height: 50px;
+	background: #4786FF;
+	border-radius: 4px;
+	font-family: Poppins-M;
+	font-size: 13px;
+	color: white;
+	margin-top: 38px;
+}
+
+.informacije-tile {
+	width: auto;
+	height: auto;
+	margin-top: 50px;
+}
+
+.informacije-tile >	img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.informacije-tile > p {
+	font-family: Poppins-M;
+	font-size: 16px;
+	color: #8F8F8F;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 150%;
+	margin-left: 20px;
+}
+
+.informacije-tile > p > span {
+	font-family: Poppins-S;
+	font-size: 18px;
+	color: #222222;
+}
