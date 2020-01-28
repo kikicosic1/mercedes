@@ -1,2 +1,4 @@
+Sitemap:
+https://kikicosic1.github.io/mercedes/sitemap.xml
 User-agent: *
 Disallow: /admin
